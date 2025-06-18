@@ -1,0 +1,106 @@
+.
+├── LICENSE
+├── README.md
+├── docs
+│   └── images
+│       └── 3D-Speaker-logo.png
+├── egs
+│   ├── 3dspeaker
+│   │   ├── README.md
+│   │   ├── language-identification
+│   │   ├── speaker-diarization
+│   │   ├── sv-cam++
+│   │   ├── sv-ecapa
+│   │   ├── sv-eres2net
+│   │   ├── sv-eres2netv2
+│   │   ├── sv-rdino
+│   │   ├── sv-res2net
+│   │   └── sv-resnet
+│   ├── ava-asd
+│   │   └── talknet
+│   ├── cnceleb
+│   │   ├── README.md
+│   │   ├── sv-cam++
+│   │   ├── sv-ecapa
+│   │   ├── sv-eres2net
+│   │   ├── sv-eres2netv2
+│   │   ├── sv-rdino
+│   │   ├── sv-res2net
+│   │   └── sv-resnet
+│   ├── semantic_speaker
+│   │   └── bert
+│   └── voxceleb
+│       ├── README.md
+│       ├── sv-cam++
+│       ├── sv-ecapa
+│       ├── sv-eres2net
+│       ├── sv-eres2netv2
+│       ├── sv-rdino
+│       ├── sv-res2net
+│       ├── sv-resnet
+│       ├── sv-sdpn
+│       └── sv-xvector
+├── file_structure.txt
+├── requirements.txt
+├── runtime
+│   └── onnxruntime
+│       ├── CMakeLists.txt
+│       ├── README.md
+│       ├── assets
+│       ├── bin
+│       ├── cmake
+│       ├── feature
+│       ├── model
+│       └── utils
+└── speakerlab
+    ├── bin
+    │   ├── compute_score_metrics.py
+    │   ├── export_speaker_embedding_onnx.py
+    │   ├── extract.py
+    │   ├── extract_ssl.py
+    │   ├── infer_diarization.py
+    │   ├── infer_sv.py
+    │   ├── infer_sv_batch.py
+    │   ├── infer_sv_ssl.py
+    │   ├── train.py
+    │   ├── train_asd.py
+    │   ├── train_para.py
+    │   ├── train_rdino.py
+    │   └── train_sdpn.py
+    ├── dataset
+    │   ├── dataset.py
+    │   ├── dataset_asd.py
+    │   ├── dataset_rdino.py
+    │   └── dataset_sdpn.py
+    ├── loss
+    │   ├── dino_loss.py
+    │   ├── keleo_loss.py
+    │   ├── margin_loss.py
+    │   └── sdpn_loss.py
+    ├── models
+    │   ├── campplus
+    │   ├── ecapa_tdnn
+    │   ├── eres2net
+    │   ├── rdino
+    │   ├── res2net
+    │   ├── resnet
+    │   ├── sdpn
+    │   ├── talknet
+    │   └── xvector
+    ├── process
+    │   ├── augmentation.py
+    │   ├── cluster.py
+    │   ├── processor.py
+    │   ├── processor_para.py
+    │   └── scheduler.py
+    └── utils
+        ├── builder.py
+        ├── checkpoint.py
+        ├── config.py
+        ├── epoch.py
+        ├── fileio.py
+        ├── score_metrics.py
+        ├── utils.py
+        └── utils_rdino.py
+
+60 directories, 44 files

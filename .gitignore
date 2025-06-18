@@ -1,0 +1,13 @@
+# .gitignore
+*.mp4
+*.wav
+*.onnx
+*.pt
+.env
+diarization-env/
+__pycache__/
+results/
+exp_video/
+temp/
+*.json
+*.log
